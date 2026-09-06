@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hale & Grain — handmade cheese boards, cutting boards and spoons from local and salvaged timber, Warrandyte VIC."
+    />
+    <title>Hale & Grain — Handmade timber pieces</title>
+    <meta name="theme-color" content="#EDEAE0" />
+    <link rel="canonical" href="https://haleandgrain.com.au/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hale & Grain" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:title" content="Hale & Grain — Handmade timber pieces" />
+    <meta
+      property="og:description"
+      content="Handmade cheese boards, cutting boards and spoons from local and salvaged timber, made by hand in Warrandyte, Victoria."
+    />
+    <meta property="og:url" content="https://haleandgrain.com.au/" />
+    <meta property="og:image" content="https://haleandgrain.com.au/images/og-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Hale & Grain",
+        "description": "Handmade cheese boards, cutting boards and spoons from local and salvaged Australian timber.",
+        "url": "https://haleandgrain.com.au/",
+        "image": "https://haleandgrain.com.au/images/og-cover.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Warrandyte",
+          "addressRegion": "VIC",
+          "addressCountry": "AU"
+        },
+        "areaServed": "Melbourne, Victoria",
+        "knowsAbout": ["Woodworking", "Salvaged timber", "Cheese boards", "Hand-carved spoons"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Static form for Netlify's build-time form detection. Kept in sync with InquiryForm.vue's fields. -->
+    <form name="inquiry" data-netlify="true" netlify-honeypot="company" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="interest">
+        <option>Cheese/grazing board</option>
+        <option>Cutting board</option>
+        <option>Spoon/utensil set</option>
+        <option>Something bigger</option>
+        <option>Not sure</option>
+      </select>
+      <select name="gift">
+        <option>No</option>
+        <option>Yes — needs a note</option>
+        <option>Yes — needs to ship by a date</option>
+      </select>
+      <textarea name="details"></textarea>
+      <input type="text" name="company" />
+    </form>
+
+    <script type="module" src="/src/main.js"></script>
+
+    <!-- Lets Netlify Identity invite/reset links work no matter what page they land on. -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/'
+            })
+          }
+        })
+      }
+    </script>
+  </body>
+</html>

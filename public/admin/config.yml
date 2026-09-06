@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where images go if they're added through the general media picker
+# (the "pieces" collection below overrides this per-field).
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pieces"
+    label: "Pieces"
+    label_singular: "Piece"
+    description: "Everything shown in the collection gallery."
+    folder: "content/pieces"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{fields.id}}"
+    identifier_field: "title"
+    summary: "No. {{id}} — {{title}}"
+    media_folder: "/public/images/pieces"
+    public_folder: "/images/pieces"
+    fields:
+      - label: "Piece number"
+        name: "id"
+        widget: "string"
+        hint: "e.g. 043 — shown as 'No. 043' and used in the page link. Use the next number up from the last piece."
+        pattern: ["^[0-9]+$", "Numbers only, e.g. 043"]
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "e.g. Round cheese board"
+
+      - label: "Type"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Serving board", value: "board" }
+          - { label: "Cutting board", value: "cutting-board" }
+          - { label: "Spoon / utensil", value: "spoon" }
+          - { label: "Larger piece", value: "other" }
+
+      - label: "Timber"
+        name: "species"
+        widget: "string"
+        hint: "e.g. River Red Gum"
+
+      - label: "Dimensions"
+        name: "dimensions"
+        widget: "string"
+        hint: "e.g. 30cm diameter, or 45cm x 18cm"
+
+      - label: "Story"
+        name: "story"
+        widget: "text"
+        hint: "A sentence or two — where the timber came from, anything worth knowing."
+
+      - label: "Main photo"
+        name: "image"
+        widget: "image"
+
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        field: { label: "Photo", name: "src", widget: "image" }
+
+      - label: "Still available"
+        name: "available"
+        widget: "boolean"
+        default: true
+        hint: "Turn off once it's sold or gifted — it still shows in the gallery, just marked as a past piece."

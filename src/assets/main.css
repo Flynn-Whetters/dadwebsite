@@ -1,0 +1,85 @@
+@import './fonts.css';
+@import './base.css';
+
+.wrap {
+  width: min(100% - 3rem, var(--content-width));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--color-sage);
+  font-weight: 500;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--color-clay);
+}
+
+.section {
+  padding-block: var(--section-gap);
+}
+
+.section-heading {
+  font-size: clamp(1.75rem, 1.3rem + 1.8vw, 2.75rem);
+  max-width: 34rem;
+}
+
+.section-intro {
+  max-width: 38rem;
+  color: var(--color-ink-soft);
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--color-ink);
+  color: var(--color-surface);
+}
+
+.btn-primary:hover {
+  background: #232d21;
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: var(--color-ink);
+  color: var(--color-ink);
+}
+
+.btn-secondary:hover {
+  background: var(--color-ink);
+  color: var(--color-surface);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --section-gap: 3.5rem;
+  }
+}

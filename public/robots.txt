@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haleandgrain.com.au/sitemap.xml
