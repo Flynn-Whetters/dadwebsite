@@ -49,7 +49,7 @@ function submit() {
   </button>
 
   <dialog ref="dialog" class="pin-dialog" @click.self="close">
-    <form class="pin-form" @submit.prevent="submit">
+    <form class="pin-form" @submit.prevent="submit" novalidate>
       <h2 class="pin-form__title">Admin access</h2>
       <p class="pin-form__hint">Enter the PIN to add or update photos.</p>
 
@@ -100,6 +100,10 @@ function submit() {
 }
 
 .pin-dialog {
+  margin: auto;
+  width: min(88vw, 20rem);
+  max-height: 90vh;
+  overflow: visible;
   border: none;
   border-radius: var(--radius-lg);
   padding: 0;
@@ -114,9 +118,9 @@ function submit() {
 
 .pin-form {
   padding: 2rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.4rem;
-  width: min(88vw, 20rem);
 }
 
 .pin-form__title {

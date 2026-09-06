@@ -1,1 +1,307 @@
-{}
+{
+  "/images/pieces/043-detail-a.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUAA8APu1iqk2ppaQiMAgBMB2JYwCdMoADS/a+19YqlKnksuAA/nowLYXawV4UwKftuCedAhNgKm0P37ebPmStfdksIcXQC5lVK8AA",
+    "variants": {
+      "avif": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-a-480.avif"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-a-768.avif"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-a-1200.avif"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-a-1800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-a-480.webp"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-a-768.webp"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-a-1200.webp"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-a-1800.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-a-480.jpg"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-a-768.jpg"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-a-1200.jpg"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-a-1800.jpg"
+        }
+      ]
+    }
+  },
+  "/images/pieces/043-detail-b.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA8APu1iqk4ppaQiMAgBMB2JYgCdL46BylYPA6Pu68clWAD+yQWbt1n5nFDYO908JvyZvjkPKBeVhxY2L/N1PTJMF72xOGaCQTbDoRTxaAAA",
+    "variants": {
+      "avif": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-b-480.avif"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-b-768.avif"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-b-1200.avif"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-b-1800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-b-480.webp"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-b-768.webp"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-b-1200.webp"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-b-1800.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-b-480.jpg"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-b-768.jpg"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-b-1200.jpg"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-b-1800.jpg"
+        }
+      ]
+    }
+  },
+  "/images/pieces/043-detail-c.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAA8APu1kqU2ppaQiMAgBMB2JQBdgBA2EN9l6W3b9ZUAA/n46yAHESqEXB+HOh3LevI2gaQk1728rPm0ibvnTacTlcxLWPRpVoAAA",
+    "variants": {
+      "avif": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-c-480.avif"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-c-768.avif"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-c-1200.avif"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-c-1800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-c-480.webp"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-c-768.webp"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-c-1200.webp"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-c-1800.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-detail-c-480.jpg"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-detail-c-768.jpg"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-detail-c-1200.jpg"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-detail-c-1800.jpg"
+        }
+      ]
+    }
+  },
+  "/images/pieces/043-main.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQBACdASoUAA8APu1iqU2ppaQiMAgBMB2JYwCdMoAC7bhD4nCkUwyWAAD+tWZDiw99hGQ/3WyH6K9aOsEVaDTuNQG5yi2nq7x4G5Q783i31EbaCtBivyNcQKNVgAAA",
+    "variants": {
+      "avif": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-main-480.avif"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-main-768.avif"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-main-1200.avif"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-main-1800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-main-480.webp"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-main-768.webp"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-main-1200.webp"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-main-1800.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "w": 480,
+          "src": "/images/pieces/043-main-480.jpg"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/043-main-768.jpg"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/043-main-1200.jpg"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/043-main-1800.jpg"
+        }
+      ]
+    }
+  },
+  "/images/pieces/044-main.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwBACdASoUAA8APu1kqk4ppaQiMAgBMB2JQBOmUI+PBLOekdzUHPOc4VR8QAD+azLwdLCvcp/RG8rVRaFGL3UDrwuNopAmhV0GOLUpZekdLof9AAA=",
+    "variants": {
+      "avif": [
+        {
+          "w": 480,
+          "src": "/images/pieces/044-main-480.avif"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/044-main-768.avif"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/044-main-1200.avif"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/044-main-1800.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "src": "/images/pieces/044-main-480.webp"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/044-main-768.webp"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/044-main-1200.webp"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/044-main-1800.webp"
+        }
+      ],
+      "jpeg": [
+        {
+          "w": 480,
+          "src": "/images/pieces/044-main-480.jpg"
+        },
+        {
+          "w": 768,
+          "src": "/images/pieces/044-main-768.jpg"
+        },
+        {
+          "w": 1200,
+          "src": "/images/pieces/044-main-1200.jpg"
+        },
+        {
+          "w": 1800,
+          "src": "/images/pieces/044-main-1800.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "043",
+  "title": "Jarrah Charcuterie Board",
+  "category": "board",
+  "species": "Jarrah",
+  "dimensions": "TBD",
+  "story": "Handcrafted locally from old Jarrah floorboards reclaimed from a Warrandyte family heirloom home. Finished with 100% natural oil, then hand buffed with a natural beeswax polish, both food safe.",
+  "image": "/images/pieces/043-main.jpg",
+  "gallery": [
+    "/images/pieces/043-detail-a.jpg",
+    "/images/pieces/043-detail-b.jpg",
+    "/images/pieces/043-detail-c.jpg"
+  ],
+  "available": true
+}
